@@ -29,7 +29,7 @@ function App() {
   return (
     <Container fluid className="px-0 d-flex flex-row justify-content-center">
       {data.length > 0 && <TableData data={data}></TableData>}
-      {!data.length && <p>No data</p>}
+      {!data.length && <p>Loading data...</p>}
     </Container>
   );
 }
